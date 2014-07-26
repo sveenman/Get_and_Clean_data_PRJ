@@ -1,9 +1,9 @@
 library(data.table)
-fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+#fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 #download.file(fileUrl, destfile = "GandC_project.zip", method = "curl")
 # method = curl does not work for me, so I use method = auto wich apparently does the job.. 
-download.file(fileUrl, destfile = "GandC_project.zip", method = "auto")
-unzip("GandC_project.zip")
+#download.file(fileUrl, destfile = "GandC_project.zip", method = "auto")
+#unzip("GandC_project.zip")
 
 # Read the provided files and the test and training dataset
 xtestdata <- read.csv("UCI HAR Dataset/test/X_test.txt", sep="", header=FALSE)
