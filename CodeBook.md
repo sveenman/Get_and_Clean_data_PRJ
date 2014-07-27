@@ -1,6 +1,5 @@
-Get_and_Clean_data_PRJ
-==============
-
+**Get_and_Clean_data_PRJ**
+---
 1.	The provided test and training files are imported
 -----------
 * UCI HAR Dataset/test/X_test.txt
@@ -20,8 +19,8 @@ Get_and_Clean_data_PRJ
 
 4. The colnames are adjusted:
 -----------
-   a. the y_test and y_train now have the colname "activity"
-   b. subject_test and subject_train now have "subject" as colname.
+* The y_test and y_train now have the colname "activity"
+* subject_test and subject_train now have "subject" as colname.
 
 5. Now all the sets are joined together by column (cbind) and then the rows are merged (rbind)
 -----------
