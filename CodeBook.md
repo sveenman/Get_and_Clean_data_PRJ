@@ -21,3 +21,6 @@ UCI HAR Dataset/features.txt
 5. Now all the sets are joined together by column (cbind) and then the rows are merged (rbind)
 
 6. The mean and standard deviation of each measurements is then taken
+
+7. The final step is that a tidy data set (called tidy.txt) is created based on the average for all values by activity and subject.
+
