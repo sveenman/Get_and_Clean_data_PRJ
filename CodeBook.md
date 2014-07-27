@@ -1,4 +1,5 @@
 Get_and_Clean_data_PRJ
+======================
 
 1.	The provided test and training files are imported
 UCI HAR Dataset/test/X_test.txt
