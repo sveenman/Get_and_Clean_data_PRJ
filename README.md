@@ -16,5 +16,3 @@ It will create a "testANDtrain_mean" (mean for each measurement)
 and a "testANDtrain_sd" (standard deviation for each measurement).
 
 Next, the script will write a csv file called tidy.
-
-The file tidy can be found in this repository.
