@@ -1,6 +1,6 @@
 Get_and_Clean_data_PRJ
 
-1. The provided test and training files are imported
+1.	The provided test and training files are imported
 UCI HAR Dataset/test/X_test.txt
 UCI HAR Dataset/test/y_test.txt
 UCI HAR Dataset/test/subject_test.txt
@@ -19,3 +19,5 @@ UCI HAR Dataset/features.txt
    b. subject_test and subject_train now have "subject" as colname.
 
 5. Now all the sets are joined together by column (cbind) and then the rows are merged (rbind)
+
+6	The mean and standard deviation of each measurements is then taken
