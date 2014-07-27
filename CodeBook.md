@@ -1,5 +1,9 @@
-**Get_and_Clean_data_PRJ**
----
+Get_and_Clean_data_PRJ repo
+==
+
+This codebook descibes the run_analysis.R script
+-
+
 **1.	THE PROVIDED TEST AND TRAINING FILES ARE IMPORTED**
 
 * UCI HAR Dataset/test/X_test.txt
